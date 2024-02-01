@@ -1,87 +1,86 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *
 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins';
 }
 body
 {
-  background: url("VINHETA.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin:auto; /* TESTAR */
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+	background: url("VINHETA.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
 #puzzle
 {
-  width:600px;
-  margin:auto;
+	width:600px;
+	margin:auto;
 }
 .tile
 {
-  background:url("abelha.png");
-  width:200px;
-  height:200px;
-  float:left;
-  border:1px solid silver;
-  box-sizing:border-box;
-  }
-  #tile1{
-    background-position:0 0
-  }
-  #tile2{ 
-    background-position:-200px -0px
-  }
-  #tile3 {
-    background-position:-400px -0px 
-  }
-  #tile4 { 
-    background-position:-0 -200px
-  }
-  #tile5 { 
-    background-position:-200px -200px 
-  }
-  #tile6{
-    background-position:-400px -200px 
-  }
-  #tile7{ 
-    background-position:-0 -400px 
-  }
-  #tile8{ 
-    background-position:-200px -400px
-  }
-  #tile9{ 
-    background-position:-400px -400px 
-  }
+	background-image:url('abelha.png');
+	width:200px;
+	height:200px;
+	float:left;
+	border:1px solid silver;
+	box-sizing:border-box;
+}
+#tile1{
+	background-position:0 0
+}
+#tile2{ 
+	background-position:-200px -0px
+}
+#tile3 {
+	background-position:-400px -0px 
+}
+#tile4 { 
+	background-position:-0 -200px
+}
+#tile5 { 
+	background-position:-200px -200px 
+}
+#tile6{
+	background-position:-400px -200px 
+}
+#tile7{ 
+	background-position:-0 -400px 
+}
+#tile8{ 
+	background-position:-200px -400px
+}
+#tile9{ 
+	background-position:-400px -400px 
+}
 #popup{
-          position:absolute;width:100%;
-          background:rgba(0,0,0,0.5);
-          top:25%;
-          text-align:center;
-          color:#fff;
-          padding:20px;
-  }
+	position:absolute;width:100%;
+	background:rgba(0,0,0,0.5);
+	top:25%;
+	text-align:center;
+	color:#fff;
+	padding:20px;
+}
 
 footer{
-   display: flex;
-   position: absolute;
-   bottom: 10px;
-   color: white;
-   font-family: 'Poppins', sans-serif;
-   font-size: 0.8em;
+	display: flex;
+	position: absolute;
+	bottom: 10px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.8em;
 }
 footer a{
-   margin: 0 5px;
-   color: white;
-   transition: transform .2s;
+	margin: 0 5px;
+	color: white;
+	transition: transform .2s;
 }
 footer a:hover{
-   color:#00ffdd;
-   transform: scale(1.5);
+	color:#00ffdd;
+	transform: scale(1.5);
 }
