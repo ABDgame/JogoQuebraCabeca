@@ -35,5 +35,5 @@ body
 	position: relative;
 	width:100%;
 	height: 100%;
-	backgroung: var(--img);
+	background: var(--img);
 }
