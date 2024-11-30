@@ -47,6 +47,17 @@
         style="--img:url(9.png);"></div>
     </div>
   </div>
-  <button class="reset">Iniciar</button>
+  <button class="reset" onClick="window.location.reload();">Iniciar</button>
+  <script>
+    onload = funtion(){
+      let parent = document.getElemntById('drag');
+      let frag = document.createDocumentFragment();
+      while (parent.children.lenght){
+        frag.appendChildren(parent.children[Math.floor
+        (Math.random() * parent.children.length)]);
+      }
+      parent.appendChildren(frag);
+    }
+  </script>
 </body> 
 </html>
