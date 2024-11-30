@@ -49,10 +49,10 @@
   </div>
   <button class="reset" onClick="window.location.reload();">Iniciar</button>
   <script>
-    onload = funtion(){
-      let parent = document.getElemntById('drag');
+    onload = function(){
+      let parent = document.getElementById('drag');
       let frag = document.createDocumentFragment();
-      while (parent.children.lenght){
+      while (parent.children.length){
         frag.appendChildren(parent.children[Math.floor
         (Math.random() * parent.children.length)]);
       }
