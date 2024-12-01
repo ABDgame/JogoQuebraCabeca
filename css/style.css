@@ -60,3 +60,10 @@ body
 	grid-template-columns: repeat(3,1fr);
 	gap: 10px;
 }
+.dragBox
+{
+	position: relative;
+	width: 140px;
+	height: 140px;
+	background: #0003;
+}
