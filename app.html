@@ -11,45 +11,45 @@
 <body>
   <div class="drag" id="drag">
     <div class="dragBox">
-      <div class="images" draggable="true" id="block1"
+      <div class="images" draggable="true" ondragstart="drag(event)" id="block1"
         style="--img:url(1.png);"></div>
     </div>
     <div class="dragBox">
-      <div class="images" draggable="true" id="block2"
+      <div class="images" draggable="true" ondragstart="drag(event)" id="block2"
         style="--img:url(2.png);"></div>
     </div>
     <div class="dragBox">
-      <div class="images" draggable="true" id="block3"
+      <div class="images" draggable="true" ondragstart="drag(event)" id="block3"
         style="--img:url(3.png);"></div>
     </div>
     <div class="dragBox">
-      <div class="images" draggable="true" id="block4"
+      <div class="images" draggable="true" ondragstart="drag(event)" id="block4"
         style="--img:url(4.png);"></div>
     </div> 
     <div class="dragBox">
-      <div class="images" draggable="true" id="block5"
+      <div class="images" draggable="true" ondragstart="drag(event)" id="block5"
         style="--img:url(5.png);"></div>
     </div>
     <div class="dragBox">
-      <div class="images" draggable="true" id="block6"
+      <div class="images" draggable="true" ondragstart="drag(event)" id="block6"
         style="--img:url(6.png);"></div> 
     </div>
     <div class="dragBox">
-    <div class="images" draggable="true" id="block7"
+    <div class="images" draggable="true" ondragstart="drag(event)" id="block7"
         style="--img:url(7.png);"></div> 
     </div>
     <div class="dragBox">
-    <div class="images" draggable="true" id="block8"
+    <div class="images" draggable="true" ondragstart="drag(event)" id="block8"
         style="--img:url(8.png);"></div> 
     </div>
     <div class="dragBox">
-      <div class="images" draggable="true" id="block9"
+      <div class="images" draggable="true" ondragstart="drag(event)" id="block9"
         style="--img:url(9.png);"></div>
     </div>
   </div>
 
   <div class="board">
-    <div class="dragBox"></div>
+    <div class="dragBox" ondrop="drop(event)" ondragover></div>
     <div class="dragBox"></div>
     <div class="dragBox"></div>
     <div class="dragBox"></div>
@@ -62,6 +62,21 @@
  
   <button class="reset" onClick="window.location.reload();">Iniciar</button>
   <script>
+
+    function drag(event){
+      event.dataTransfer.setData("text", event.target.id);
+    }
+
+    function allowDrop(event){
+      event.preventDefault();
+    }
+
+    function drop(event){
+      event.preventDefault();
+      let data = event.dataTransfer.getData("text");
+      event.target.appendChild(document.getElementById(data));
+    }
+    
     onload = function(){
       let parent = document.getElementById('drag');
       let frag = document.createDocumentFragment();
