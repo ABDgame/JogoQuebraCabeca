@@ -9,6 +9,7 @@ body
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	gap: 50px;
 	background: #2f363e;
 }
 .drag
