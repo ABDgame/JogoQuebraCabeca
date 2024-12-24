@@ -103,6 +103,19 @@ select{
   border: 1px solid var(--color-border);
   background-color: tranparent;
   border-radius: 10px;
+  font: inherit;
+  padding: 0 15px;
+  outline: none;
+  color: var(--color-text);
+}
+textarea{
+  display: block;
+  padding-top: 15px;
+  resize: none;
+}
+::placeholder{
+  color: var(--color-text-2);
+  opacity: 1;
 }
 /* # page Wrapper */
 /* # container */
