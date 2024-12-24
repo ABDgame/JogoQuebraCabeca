@@ -1,5 +1,5 @@
-# JogoQuebraCabeca
+# TemperoDonaSonia - Restaurante
 Sliding Image Puzzle | HTML, CSS and JavaScript Project
 
 # Código Fonte
-https://youtu.be/BORmIIrMmnE?si=D-DeWqGJt7BsCAxm
+https://www.youtube.com/watch?v=BXzp4OvqNQ4
