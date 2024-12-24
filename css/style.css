@@ -1,0 +1,58 @@
+
+
+
+/* # fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+/* # variables */
+:root {
+  --color-primary: hsl(36, 55%, 60%);
+  --color-primary-dark:hsl(36, 50%, 23%); 
+
+  --color-text: hsla(0, 0%, 100%, 0.95); 
+  --color-text-2: hsla(0, 0%, 100%, 0.75);
+
+  --color-bg: hsl(36, 7%, 11%);
+  --color-bg-2: hsl(36, 7%, 15%);
+  --color-bg-alpha-60: hsla(0, 0%, 0%, 0.6);
+
+  --color-border: hsla(0, 0%, 100%, 0.15);
+  --color-border-2: hsla(0, 0%, 100%, 0.08);
+  --color-border-dark: hsla(0, 0%, 0%, 0.15);
+
+  /* scrollbar */
+  --color-scrollbar-track: hsl(0, 0%, 21%);
+  --color-scrollbar-thumb: hsl(0, 0%, 53%);
+
+  /* font size */
+  --fs-body: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 24px;
+  --fs-2xl: 31px;
+  --fs-3xl: 40px;
+  --fs-4xl: 54px;
+
+
+  /* padding */
+  --section-pt: 80px;
+  --section-pb: 80px;
+}
+/* # base */
+/* # page Wrapper */
+/* # container */
+/* # animation on scroll */
+/* # section header */
+/* # btn */
+/* # tabs */
+/* # preloader */
+/* # header */
+/* # footer */
+/* # hero */
+/* # about */
+/* # stats */
+/* # rest-menu */
+/* # team */
+/* # Testimonials */
+/* # timing */
+/* # contact */
+

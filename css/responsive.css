@@ -1,0 +1,164 @@
+
+@media(max-width: 991px){
+  :root{
+    /* font size */
+    --fs-lg: 19px;
+    --fs-xl: 23px;
+    --fs-2xl: 29px;
+    --fs-3xl: 36px;
+    --fs-4xl: 46px;
+  }  
+  .container{
+    padding: 0 15px;
+  }
+  .header{
+    padding: 14px 0;
+  }
+  .header .menu-btn{
+    height: 40px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    z-index: 1;
+  }
+  .header .menu-btn .line{
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: var(--color-primary);
+    transition: 0.3s;
+  }
+  .header .menu-btn .line-1{
+    transform: translateY(-8px);
+  }
+  .header .menu-btn .line-3{
+    transform: translateY(8px);
+  }
+  .header .menu-btn.active .line-1{
+    transform: translateY(0) rotate(45deg);
+  }
+  .header .menu-btn.active .line-2{
+    transform: translateX(-100%);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .header .menu-btn.active .line-3{
+    transform: translateY(0) rotate(-45deg);
+  }
+  .header .menu{
+    position: fixed;
+    height: 100%;
+    width: 280px;
+    right: -280px;
+    top: 0;
+    background-color: var(--color-bg-2);
+    padding: 68px 0 40px;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.95);
+    transition: right 0.5s;
+  }
+  .header .menu.open{
+    right: 0;
+  }
+  .header .menu::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid var(--color-border-2);
+  }
+  .header .menu > ul{
+    height: 100%;
+    overflow-y: auto;
+  }
+  .header .menu li{
+    display: block;
+  }
+  .header .menu li:not(:last-child){
+    margin-right: 0;
+  }
+  .header .menu a{
+    padding: 12px 30px;
+  }
+  .hero{
+    padding: 180px 0;
+  }
+  .about .container{
+    gap: 30px;
+  }
+  .stats-items{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-form{
+    padding: 40px 30px;
+  }
+}
+@media(max-width: 767px){
+  :root{
+    /* font size */
+    --fs-lg: 18px;
+    --fs-xl: 22px;
+    --fs-2xl: 26px;
+    --fs-3xl: 32px;
+    --fs-4xl: 38px;
+    /* padding */
+    --section-pt: 60px;
+    --section-pb: 60px;
+  } 
+  .section-header{
+    margin-bottom: 45px;
+  }
+  .hero{
+    padding: 150px 0;
+  }
+  .about .container{
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .about-content{
+    order: -1;
+  }
+  .rest-menu-list{
+    grid-template-columns: 1fr;
+  }
+  .rest-menu-item:nth-child(2){
+    padding-top: 25px;
+  }
+  .rest-menu-item:nth-last-child(2){
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .testimonials-image{
+    display: none;
+  }
+  .testimonials-slider{
+    width: 100%;
+  }
+  .contact-items,
+  .contact-form .form{
+    grid-template-columns: 1fr;
+  }
+
+}
+@media(max-width: 575px){
+  .stats-items{
+    grid-template-columns: 1fr;
+  }
+  .rest-menu-item img{
+    max-width: 60px;
+  }
+  .team-list{
+    grid-template-columns: 1fr;
+  }
+  .contact-form{
+    padding: 30px 15px;
+  }
+}
