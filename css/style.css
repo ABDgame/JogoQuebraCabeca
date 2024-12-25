@@ -181,6 +181,17 @@ textarea{
 }
 /* # footer */
 /* # hero */
+.hero{
+  position: relative;
+  padding: 260px 0;
+}
+.hero-bg{
+  position: absolute;
+  inset: 0;
+  background: url('../img/hero-bg.jpg') center/cover;
+  filter: brightness(0.25);
+  z-index: -1;
+}
 /* # about */
 /* # stats */
 /* # rest-menu */
