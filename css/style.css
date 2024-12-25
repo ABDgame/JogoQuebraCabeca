@@ -118,13 +118,56 @@ textarea{
   opacity: 1;
 }
 /* # page Wrapper */
+.page-wrapper{
+  overflow: hidden;
+}
 /* # container */
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
 /* # animation on scroll */
 /* # section header */
 /* # btn */
 /* # tabs */
 /* # preloader */
 /* # header */
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 22px 0;
+  transition: background-color 0.6s;
+}
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo span{
+  max-width: 125px;
+}
+.header .menu-btn{
+  display: none;
+}
+.header .menu li{
+  display: inline-block;
+}
+.header .menu li:not(:las-child){
+  margin-right: 40px;
+}
+.header .menu a{
+  color: var(--color-text);
+  text-transform: capitalize;
+  display: block;
+  transition: color 0.3s;
+}
+.header .menu a:hover{
+  color: var(--color-primary);
+}
 /* # footer */
 /* # hero */
 /* # about */
