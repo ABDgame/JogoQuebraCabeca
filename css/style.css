@@ -192,6 +192,23 @@ textarea{
   filter: brightness(0.25);
   z-index: -1;
 }
+.hero .container{
+  max-width: 800px;
+  text-align: center;
+}
+.hero p{
+  color: var(--color-text);
+  text-tranform: uppercase;
+  font-size: var(--fs-lg);
+}
+.hero h1{
+  font-size: var(--fs-4x1);
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+.hero-btn-wrapper{
+  margin-top: 30px;
+}
 /* # about */
 /* # stats */
 /* # rest-menu */
