@@ -132,6 +132,11 @@ textarea{
 .section-header{
   margin: 0 auto 60px;
   text-align: center;
+  max-width: 800px;
+}
+.section-header .title{
+  font-size: var(--fs-3x1);
+  text-transform: capitalize;
 }
 /* # btn */
 .btn{
