@@ -55,7 +55,7 @@ body{
   font-size: var(--fs-body);
   color: var(--color-text-2);
   background-color: var(--color-bg);
-  line-height: 1.2;
+  line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -263,6 +263,10 @@ textarea{
   grid-template-columns: repeat(2, 1fr);
   gap: 60px;
 }
+.about .section-header{
+  text-align: left;
+  margin-bottom: 25px;
+}
 .about-images{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -270,6 +274,25 @@ textarea{
 }
 .about-images .image-box:nth-child(2){
   margin-top: 100px;
+}
+.about-person{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.about-person img{
+  max-width: 70px;
+  border-radius: 50%;
+}
+.about-person h3{
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: var(--fs-lg);
+}
+.about-person p{
+  color: var(--color-primary);
+  text-transform: capitalize;
 }
 /* # stats */
 /* # rest-menu */
