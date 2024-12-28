@@ -130,6 +130,20 @@ textarea{
 /* # animation on scroll */
 /* # section header */
 /* # btn */
+.btn{
+  display: inline-block;
+  padding: 15px 28px;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+  line-height: 1;
+  user-select: none;
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+}
 /* # tabs */
 /* # preloader */
 /* # header */
