@@ -129,6 +129,10 @@ textarea{
 }
 /* # animation on scroll */
 /* # section header */
+.section-header{
+  margin: 0 auto 60px;
+  text-align: center;
+}
 /* # btn */
 .btn{
   display: inline-block;
@@ -246,6 +250,22 @@ textarea{
   margin-top: 30px;
 }
 /* # about */
+.about{
+  padding: var(--section-pt) 0 var(--section-pb);
+}
+.about .container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+.about-images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.about-images .image-box:nth-child(2){
+  margin-top: 100px;
+}
 /* # stats */
 /* # rest-menu */
 /* # team */
