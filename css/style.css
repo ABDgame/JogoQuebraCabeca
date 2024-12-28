@@ -295,6 +295,29 @@ textarea{
   text-transform: capitalize;
 }
 /* # stats */
+.stats{
+  padding: 60px 0;
+  background-color: var(--color-primary);
+}
+.stats-items{
+  dislay: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.stats-item{
+  text-align: center;
+  color: var(--color-primary-dark);
+  border: 1px solid var(--color-border-dark);
+  padding: 30px; 
+}
+.stats-item span{
+  font-size: var(--fs-3x1);
+  font-weight: bold;
+}
+.stats-item p{
+  text-transform: uppercase;
+  font-weight: 500;
+}
 /* # rest-menu */
 /* # team */
 /* # Testimonials */
