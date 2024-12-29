@@ -135,7 +135,7 @@ textarea{
   max-width: 800px;
 }
 .section-header .title{
-  font-size: var(--fs-3x1);
+  font-size: var(--fs-3xl);
   text-transform: capitalize;
 }
 /* # btn */
@@ -288,7 +288,7 @@ textarea{
   font-size: var(--fs-lg);
 }
 .hero h1{
-  font-size: var(--fs-4x1);
+  font-size: var(--fs-4xl);
   text-transform: capitalize;
   margin-top: 15px;
 }
@@ -352,7 +352,7 @@ textarea{
   padding: 30px; 
 }
 .stats-item span{
-  font-size: var(--fs-3x1);
+  font-size: var(--fs-3xl);
   font-weight: bold;
 }
 .stats-item p{
@@ -420,7 +420,19 @@ textarea{
   border-radius: 8px;
 }
 .team-item .image-box img{
-  transform: scale(1,1);
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+.team-item:hover .image-box img{
+  transform: none;
+}
+.team-item .info{
+  text-align: center;
+  text-transform: capitalize;
+  padding: 24px 0;
+}
+.team-item h3{
+  font-size: var(--fs-xl);
 }
 /* # Testimonials */
 /* # timing */
