@@ -176,6 +176,25 @@ textarea{
   background-color: var(--color-primary);
 }
 /* # tabs */
+.tabs-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.tabs-btn{
+  display: inline-block;
+  padding: 8px 20px;
+  text-transform: capitalize;
+  background-color: transparent;
+  font-weight: 500;
+  border: none;
+  color: var(--color-text);
+  border-radius: 30px;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
 /* # preloader */
 /* # header */
 .header{
@@ -319,6 +338,9 @@ textarea{
   font-weight: 500;
 }
 /* # rest-menu */
+.rest-menu{
+  padding: var(--section-pt) 0 var(--section-pb);
+}
 /* # team */
 /* # Testimonials */
 /* # timing */
