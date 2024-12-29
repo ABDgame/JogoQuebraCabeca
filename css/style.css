@@ -400,7 +400,28 @@ textarea{
   font-weight: bold;
   font-size: var(--fs-lg);
 }
-/* # team */
+/* # team/favoritos */
+.team{
+  padding: var(--section-pt) 0 var(--section-pb);
+  backgroung-color: var(--color-bg-2);
+}
+.team-list{
+  display: grid;
+  grid-template-columns: repeat(3,1fr) ;
+  gap: 40px;
+}
+.team-item{
+  border: 1px solid var(--color-border);
+  padding: 15px 15px 0;
+  border-radius: 8px;
+}
+.team-item .image-box{
+  overflow: hidden;
+  border-radius: 8px;
+}
+.team-item .image-box img{
+  transform: scale(1,1);
+}
 /* # Testimonials */
 /* # timing */
 /* # contact */
