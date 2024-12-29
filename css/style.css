@@ -195,6 +195,13 @@ textarea{
   transition: 0.5s;
   border: 1px solid transparent;
 }
+.tabs-btn:not(.active){
+  border-color: var(--color-border);
+}
+.tabs-btn.active{
+  background-color: var(--color-primary);
+  color: var(--color-primary-dark);
+}
 /* # preloader */
 /* # header */
 .header{
