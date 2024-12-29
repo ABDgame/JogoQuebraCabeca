@@ -363,6 +363,43 @@ textarea{
 .rest-menu{
   padding: var(--section-pt) 0 var(--section-pb);
 }
+.rest-menu .section-header{
+  margin-bottom: 40px;
+}
+.rest-menu-list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 50px;
+}
+.rest-menu-item{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 25px 0;
+  border-bottom: 1px dashed var(--color-border);
+}
+.rest-menu-item:is(:nth-last-of-type(1), :nth-last-of-type(2)){
+  border: none;
+  padding-bottom: 0;
+}
+.rest-menu-item:is(:nth-child(1), :nth-child(2)){
+  padding-top: 0;
+}
+.rest-menu-item img{
+  max-width: 80px;
+  border-radius: 10px;
+}
+.rest-menu-item h4{
+  font-size: var(--fs-lg);
+  font-weight: 500;
+  text-transform: capitalize;
+  flex-grow: 1;
+}
+.rest-menu-item .price{
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: var(--fs-lg);
+}
 /* # team */
 /* # Testimonials */
 /* # timing */
