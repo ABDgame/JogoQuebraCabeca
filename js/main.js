@@ -9,3 +9,11 @@ window.addEventListener("scroll", function() {
     document.querySelector(".header").classList.remove("header-bg");
   }
 });
+
+/* tabs */
+
+function tabs(){
+  
+}
+
+tabs(".rest-menu-tabs");
