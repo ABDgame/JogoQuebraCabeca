@@ -439,6 +439,27 @@ textarea{
   margin-top: 4px;
 }
 /* # Testimonials */
+.testimonials{
+  padding: var(--section-pt) 0 var(--section-pb);
+}
+.testimonials-content{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.testimonials-image{
+  width: 38%;
+}
+.testimonials-image img{
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+.testimonials-slider{
+  width: 62%;
+}
 /* # timing */
 /* # contact */
 
