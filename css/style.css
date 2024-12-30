@@ -433,6 +433,10 @@ textarea{
 }
 .team-item h3{
   font-size: var(--fs-xl);
+  font-weight: 500;
+}
+.team-item p{
+  margin-top: 4px;
 }
 /* # Testimonials */
 /* # timing */
