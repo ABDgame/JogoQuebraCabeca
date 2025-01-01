@@ -502,8 +502,10 @@ textarea{
   width: 12px;
   background-color: var(--color-primary);
 }
-
-
 /* # timing */
+.timing{
+  padding: var(--section-pt) 0 var(--section-pb);
+  position: relative;
+}
 /* # contact */
 
