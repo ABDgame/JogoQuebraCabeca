@@ -460,6 +460,12 @@ textarea{
   display: block;
   border-radius: 50%;
 }
+.testimonials-item{
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid var(--color-primary);
+  
+}
 .testimonials-rating{
   margin-bottom: 15px;
   font-size: 14px;
