@@ -507,5 +507,12 @@ textarea{
   padding: var(--section-pt) 0 var(--section-pb);
   position: relative;
 }
+.timing-bg{
+  position: absolute;
+  inset: 0;
+  background: url('../img/timing-bg.jpg') fixed center/cover;
+  z-index: -1;
+  filter: brightness(0.3);
+}
 /* # contact */
 
