@@ -491,10 +491,17 @@ textarea{
   font-weight: 500;
 }
 .testimonials-author :is(h3, p) {
-  text-transform: capitalize;
-  
+  text-transform: capitalize; 
 }
-
+.testimonials .swiper-pagination{
+  position: static;
+  margin-top: 30px;  
+}
+.testimonials .swiper-pagination-bullet{
+  height: 12px;
+  width: 12px;
+  background-color: var(--color-primary);
+}
 
 
 /* # timing */
