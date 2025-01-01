@@ -514,5 +514,16 @@ textarea{
   z-index: -1;
   filter: brightness(0.3);
 }
+.timing .section-header{
+  margin: 0 0 20px;
+  text-align: left;
+}
+.timing-text{
+  font-size: var(--fs-lg);
+}
+.timing-text span{
+  display: inline-block;
+  color: var(--color-primary);
+}
 /* # contact */
 
