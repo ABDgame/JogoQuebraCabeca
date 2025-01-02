@@ -571,5 +571,17 @@ textarea{
   text-transform: capitalize;
   font-weight: 600;
   font-size: var(--fs-2xl);
-  margin-botto: 40px;
+  margin-bottom: 40px;
 }
+.contact-form .form{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.contact-form .form-item:nth-child(n+4){
+  grid-column: 1/ -1;
+}
+.contact-form textarea{
+  height: 150px;
+}
+.contact-form 
