@@ -1,3 +1,9 @@
+
+window.addEventListener("load", () => {
+
+/* Animação */  
+  
+});
 /* mobile menu */
 
 const menuBtn = document.querySelector(".header .menu-btn");
