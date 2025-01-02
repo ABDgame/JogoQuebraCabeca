@@ -1,5 +1,15 @@
+/* mobile menu */
 
+const menuBtn = document.querySelector(".header .menu-btn");
+const menu = document.querySelector(".header .menu-btn");
+const menuLinks = menu.querySelectorAll("a");
 
+function toggleMenu(){
+  menuBtn.classList.toggle("active");
+  menu.classList.toggle("open");
+  
+}
+menuBtn.addEventListener("click", toggleMenu);
 /* header bg */
 window.addEventListener("scroll", function() {
   if(this.scrollY > 0){
