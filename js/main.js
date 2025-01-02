@@ -10,6 +10,16 @@ function toggleMenu(){
   
 }
 menuBtn.addEventListener("click", toggleMenu);
+
+// Fecha o menu quando um link é clicado
+function menuLinkAction(){
+  if(window.innerWidth <= 991 && menu.classList.contains("open")){
+    toggleMenu();
+  }
+}
+menuLinks.forEach((a) => {
+  a.addEventListener("click", menuLinkAction);
+});
 /* header bg */
 window.addEventListener("scroll", function() {
   if(this.scrollY > 0){
