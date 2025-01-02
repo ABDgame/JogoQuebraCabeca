@@ -403,11 +403,11 @@ textarea{
   padding: 25px 0;
   border-bottom: 1px dashed var(--color-border);
 }
-.rest-menu-item:is(:nth-last-of-type(1), :nth-last-of-type(2)){
+.rest-menu-item:nth-child(-n+2){
   border: none;
   padding-bottom: 0;
 }
-.rest-menu-item:is(:nth-child(1), :nth-child(2)){
+.rest-menu-item:nth-child(-n+2){
   padding-top: 0;
 }
 .rest-menu-item img{
