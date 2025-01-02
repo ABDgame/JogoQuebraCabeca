@@ -2,7 +2,13 @@
 window.addEventListener("load", () => {
 
 /* Animação */  
-  
+
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true,
+    delay: 400,
+  })
 });
 /* mobile menu */
 
