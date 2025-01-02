@@ -584,4 +584,6 @@ textarea{
 .contact-form textarea{
   height: 150px;
 }
-.contact-form 
+.contact-form .form-btn{
+  text-align: center;
+}
