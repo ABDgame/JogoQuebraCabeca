@@ -560,3 +560,16 @@ textarea{
 .contact-item p{
   margin-top: 8px;
 }
+.contact-form{
+  margin-top: 60px;
+  padding: 50px;
+  background-color: var(--color-bg-2);
+  border-radius: 10px;
+}
+.contact-form h3{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: var(--fs-2xl);
+  margin-botto: 40px;
+}
