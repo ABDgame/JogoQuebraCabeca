@@ -342,7 +342,7 @@ textarea{
 }
 .hero p{
   color: var(--color-text);
-  text-tranform: uppercase;
+  text-transform: uppercase;
   font-size: var(--fs-lg);
 }
 .hero h1{
@@ -399,7 +399,7 @@ textarea{
   background-color: var(--color-primary);
 }
 .stats-items{
-  dislay: grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
@@ -461,7 +461,7 @@ textarea{
 /* # team/favoritos */
 .team{
   padding: var(--section-pt) 0 var(--section-pb);
-  backgroung-color: var(--color-bg-2);
+  background-color: var(--color-bg-2);
 }
 .team-list{
   display: grid;
