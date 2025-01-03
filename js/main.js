@@ -1,7 +1,11 @@
 
 window.addEventListener("load", () => {
 
-/* Animação */  
+/* preloader*/
+  const preloader = document.querySelector(".preloader");
+  preloader.classList.add("loaded");
+    
+/* Animação aos */  
 
   AOS.init({
     duration: 1000,
