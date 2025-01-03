@@ -221,6 +221,32 @@ textarea{
   }
 }
 /* # preloader */
+.preloader{
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preloader::before{
+  content: '';
+  height: 50px;
+  width: 50px;
+  border: 2px solid var(--color-border);
+  border-right-color: var(--color-primary);
+  border-radius: 50%;
+  animation: animSpin 1s linear infinite;
+}
+@keyframes animSpin{
+  100%{
+    transform: rotate(360deg);
+  }
+}
 /* # header */
 .header{
   position: fixed;
