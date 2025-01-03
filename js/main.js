@@ -4,6 +4,9 @@ window.addEventListener("load", () => {
 /* preloader*/
   const preloader = document.querySelector(".preloader");
   preloader.classList.add("loaded");
+  preloader.addEventListener("transitionend", function(){
+    this.style.display = "none";
+  });
     
 /* Animação aos */  
 
